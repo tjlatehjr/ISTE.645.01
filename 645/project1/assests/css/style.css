@@ -1,0 +1,375 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f1eeea;
+    font-family: 'Roboto',Helvetica, Arial, Sans-Serif;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    border: .1rem solid #494949;
+    background-color: #bdb9b2;
+}
+
+.active-link {
+    color: #96322d;
+}
+
+header {
+    width: 55rem;
+    margin: 0 auto;
+}
+
+#logo {
+    opacity: 97%;
+}
+
+nav {
+    position: relative;
+}
+
+nav > ul {
+    list-style: none;
+    width: 55rem;
+    overflow: hidden;
+    margin: -6.5rem auto 1.8rem auto;
+    padding-left: 0;
+}
+
+nav > ul li{
+    width: 8rem;
+    float: left;
+    background-color: #dad6ce;
+    text-align: center;
+    border-radius: .3rem;
+    font-weight: bold;
+    height: 2.5rem;
+    padding: 0.5rem 0 0 0;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+nav > ul li:nth-child(1) {
+    margin: 0 5rem 0 0;
+}
+nav > ul li:nth-child(2) {
+    margin: 0 13rem 0 0;
+}
+nav > ul li:nth-child(3) {
+    margin: 0 5rem 0 0;
+}
+nav > ul li:nth-child(4) {
+    margin: 0;
+}
+
+nav > ul li a {
+    color: #64646a;
+    text-decoration: none;
+}
+
+nav > ul li a:hover{
+    color: #96322d;
+}
+
+
+#logo {
+    position: relative;
+    width: 11rem;
+    margin: .625rem auto 0 auto;
+}
+
+#logo img {
+    width: 11rem;
+    height: 11rem;
+}
+
+#header {
+    width: 55rem;
+    /* background-color: #68686e; */
+    background-image: url('../media/background.jpg');
+    padding: 3.5rem 0 0 2.5rem;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+#header-title {
+    width: 55rem;
+    height: 8rem;
+    background-color: #68686e;
+    padding: 3.5rem 0 0 2.5rem;
+    box-sizing: border-box;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    letter-spacing: .15rem;
+    color: #f2f0eb;
+    text-shadow: 0 .2rem .2rem #494949;
+    margin: 0 0 1.5rem 0;
+} 
+
+h2 {
+    font-size: 1.7rem;
+    color: #f2f0eb;
+    text-shadow: 0 .2rem .2rem #494949;
+    max-width: 35rem;
+    font-weight: 200;
+    line-height: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+#all-projects-btn {
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: .4rem;
+    margin: 0 0 1.25rem 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #f2f0eb;
+    background-color: #75777d;
+    border: .125rem solid #535353;
+    cursor: pointer;
+}
+
+main {
+    width: 55rem;
+    margin: .4rem auto 0 auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 3rem 2.5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+h3 {
+    color: #494949;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    letter-spacing: .125rem;
+}
+
+p {
+    color: #494949;
+    max-width: 45rem;
+    line-height: 1.75rem;
+}
+
+#pushdown {
+    margin-bottom: 2.5rem;
+}
+
+#form {
+    width: 22rem;
+    margin-right: 2.5rem;
+    float: left;
+}
+
+label {
+    color: #494949;
+    width: 5rem;
+    float: left;
+    clear: left;
+    text-align: right;
+    margin: .4rem 1rem 0 0;
+}
+
+form input {
+    width: 15.6rem;
+    padding: .8rem;
+    box-sizing: border-box;
+    margin: 0 0 1rem 0;
+    background-color: #73767c;
+    border-radius: .2rem;
+    border: 0;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: white;
+    text-shadow: 0px -1px 0px #525558;
+}
+
+form textarea {
+    width: 15.6rem;
+    padding: .8rem;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    margin: 0 0 1rem 0;
+    background-color: #73767c;
+    border: 0;
+    font-family: Roboto,Helvetica, Arial, Sans-Serif;
+}
+
+form input[type="submit"] {
+    width: 10rem;
+    float: right;
+    margin: 0;
+    margin-right: .4rem;
+    border: .1rem solid #52555c;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+#socials {
+    width: 22rem;
+    display: inline-block;
+    margin-bottom: 7.5rem;
+}
+
+#socials h3{ 
+    margin: 0;
+}
+
+#socials ul {
+    list-style: none;
+    padding: 0;
+}
+
+#socials ul li {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: .25rem;
+}
+
+#socials ul li a{
+    text-decoration: none;
+    color: #494949;
+}
+
+#socials ul li a:hover {
+    color: #2b2b2b;
+    font-weight: 500;
+}
+
+#socials ul li:nth-child(1) i{
+    color: #4762a0;
+}
+
+#socials ul li:nth-child(2) i{
+    color: #6d4db5;
+}
+
+#socials ul li:nth-child(3) i{
+    color: #5adc6e
+}
+
+#socials ul li:nth-child(4) i{
+    color: #f6f350
+}
+
+#socials ul li:nth-child(5) i{
+    color: #4b9ae4
+}
+
+#socials ul li:nth-child(6) i{
+    color: #dd4c2e
+}
+
+.projects {
+    width: 46.875rem;
+    height: 12.2375rem;
+    box-sizing: border-box;
+    margin-top: 2.625rem;
+}
+
+.projects > .item {
+    float: left;
+    overflow: hidden;
+    width: 9.75rem;
+    padding: .25rem;
+    margin-right: 2.625rem;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+}
+
+.projects > .item:nth-child(4) {
+    margin-right: 0;
+}
+
+.projects > .item > img {
+    height: 9.25rem;
+    width: 9.25rem;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.projects > .item > p {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding-top: .3rem;
+    border-radius: .3rem;
+}
+
+.projects > .item > p > a {
+    color: #96322d;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.projects > .item > p > a:hover {
+     color: #671111;
+}
+
+footer {
+    width: 55rem;
+    margin: 2rem auto 1rem auto;
+}
+
+footer p, footer ul {
+    display: inline;
+}
+
+footer p {
+    color: #b8b6b2;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 5rem;
+}
+
+footer ul li{ 
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+footer > ul > li i {
+    color: #888684;
+    font-size: 2rem;
+}
+
+footer > ul > li i:hover {
+    color: #585755;
+}
+
+#go-to-top {
+    float: right;
+    margin: 0;
+
+}
+
+#go-to-top > a {
+    color: #96322d;
+    text-decoration: none;
+}
+
+#go-to-top > a:hover {
+    color: #671111;
+    text-decoration-line: underline;
+}

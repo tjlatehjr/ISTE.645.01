@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #202e3b;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: Usual, sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #666;
+}
+
+nav {
+  background-color: white;
+  padding: 0.5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  max-width: 10rem;
+  height: inherit;
+}
+
+#nav-links {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav > a {
+  height: 4em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#nav-links li > a {
+  color: #666;
+  display: block;
+  padding: 0.3em 1em;
+  text-transform: uppercase;
+}
+
+li > a:hover {
+  transition: background-color 0.5s linear;
+  background-color: #eef1f2;
+  border-radius: 0.3em;
+}
+
+#convert {
+  height: 4em;
+  padding: 1.2em 0;
+}
+
+#convert span {
+  padding-right: 0.5em;
+  border-right: 0.1em solid #666;
+}
+
+#convert a {
+  color: #666;
+  font-size: 1.3em;
+  padding-left: 0.5em;
+}
+
+#convert a:hover {
+  color: rgb(49, 49, 49);
+}
+
+#banner {
+  position: relative;
+  height: 90em;
+}
+
+#banner > img {
+  width: 100%;
+  height: 100%;
+}
+
+#banner > div {
+  max-width: 50em;
+  position: absolute;
+  top: 25em;
+  left: 10.5em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 2em #ddd, 0 0 15em #fff;
+  margin: 1em 0 0.7em 0;
+}
+
+#banner > div h4 {
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 1em;
+}
+
+#button-grey {
+  display: inline-block;
+  background-color: #202e3b;
+  font-size: 1.5em;
+  border-radius: 0.3em;
+  font-weight: 200;
+}
+
+#button-grey a {
+  padding: 0.5em 1.2em;
+  display: block;
+}
+
+#product1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f5f4;
+  padding: 2rem 12rem;
+}
+
+h2 {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 2.8em;
+  padding-bottom: 1.6em;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  max-width: 40em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details span {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+}
+
+.button-white {
+  display: inline-block;
+  background: transparent;
+  font-size: 1.5em;
+  border: 0.1em solid #202e3b;
+  border-radius: 0.3em;
+  font-weight: 200;
+}
+
+.button-white a {
+  padding: 0.5em 1.2em;
+  display: block;
+  color: #202e3b;
+}
+
+#reviews {
+  display: flex;
+  justify-content: space-around;
+  color: #202e3b;
+  padding: 5rem 0;
+}
+
+#reviews > div {
+  max-width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#reviews > div:nth-child(2) > span {
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  padding: 1em 0;
+}
+
+#reviews > div:nth-child(3) > p {
+  margin: 0;
+}
+
+#product2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebeeef;
+  padding: 2rem 12rem;
+}
+
+#product3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 2rem 12rem;
+}
+
+h3 {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 2em;
+  padding-bottom: 1.3em;
+}
+
+#top3 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 3.5rem;
+  background-color: #f1f1f1;
+  padding: 3rem 6rem;
+}
+
+#top3 a {
+  color: #202e3b;
+  display: flex;
+  flex-direction: column;
+}
+
+#video-and-feedback {
+  display: flex;
+  flex-direction: column;
+  padding: 6em;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 4em;
+}
+
+#feedback {
+  display: flex;
+  justify-content: space-between;
+  height: 10em;
+  margin: 3rem 2rem 0 3rem;
+  align-items: center;
+}
+
+#feedback form {
+  height: 3rem;
+  color: #ffffff;
+  font-size: 1.5em;
+  border: 0.2em solid #ddd;
+  border-radius: 1.2em;
+}
+
+#feedback form > a,
+#feedback form > img {
+  height: inherit;
+}
+
+#feedback span {
+  padding: 1em 1.5rem;
+  background-color: #202e3b;
+  border-radius: 1em 0 0 1em;
+}
+
+#feedback input {
+  outline: none;
+  border: 0;
+  font-size: 1em;
+  padding: 0 0 0 1em;
+}
+
+#feedback button {
+  font-size: 1.5em;
+  color: #ddd;
+  padding: 0.3em;
+  background: transparent;
+  border: 0;
+}
+
+footer {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  padding: 3rem 6rem;
+  color: white;
+}
+
+footer > div > span:first-of-type {
+  border-right: 0.1em solid #ffffff;
+  padding-right: 1em;
+}
+
+footer > div > span:last-of-type {
+  padding-left: 1em;
+}
+
+footer > div > span a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  #convert {
+    display: none;
+    visibility: hidden;
+  }
+  h1 {
+    font-size: 3.5em;
+    line-height: 1;
+  }
+  #banner {
+    height: 60em;
+  }
+  #banner > div {
+    top: 18em;
+    left: 10.5em;
+  }
+  #banner > div h4 {
+    font-size: 2em;
+  }
+  #banner > div {
+    max-width: 25em;
+  }
+  #product1 {
+    flex-direction: column;
+    padding: 2rem 6rem 4rem 6rem;
+    align-items: center;
+  }
+  #product2 {
+    flex-direction: column;
+    padding: 2rem 6rem 4rem 6rem;
+    align-items: center;
+  }
+  #product3 {
+    flex-direction: column;
+    padding: 2rem 6rem 4rem 6rem;
+    align-items: center;
+  }
+  #reviews {
+    flex-direction: column;
+    padding: 2rem 6rem 4rem 6rem;
+    align-items: center;
+  }
+  #reviews > div:first-of-type,
+  #reviews > div:nth-of-type(2) {
+    border-bottom: 1px solid #666;
+  }
+  #reviews > div {
+    padding: 2rem 0;
+  }
+  #reviews {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item1 {
+    grid-area: item1;
+  }
+
+  .item2 {
+    grid-area: item2;
+  }
+
+  .item3 {
+    grid-area: item3;
+  }
+
+  #top3 {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3";
+    grid-gap: 3rem;
+    justify-items: center;
+  }
+  #video-and-feedback {
+    padding: 3em;
+  }
+
+  video {
+    margin-bottom: 2rem;
+  }
+
+  #feedback {
+    margin: 0;
+    min-width: 25rem;
+  }
+
+  #feedback > a {
+    display: none;
+    visibility: hidden;
+  }
+  footer > div:last-of-type {
+    margin: 0 auto;
+  }
+  footer > div:first-of-type {
+    display: none;
+    visibility: hidden;
+  }
+}

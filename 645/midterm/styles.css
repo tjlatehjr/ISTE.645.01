@@ -1,0 +1,74 @@
+* { 
+	margin: 0; padding: 0; 
+}
+
+body {
+	background-color: #e4fcf8;
+	margin: 0 2em;
+	font-family: Arial, Helvetica, Calibri; 
+}
+
+header {
+	background-color: #6ac4d4;
+	padding: 10px;
+	border-bottom: 2px solid #23408f;
+}
+
+.right {
+	float: right;
+	padding-left: 1.5em;
+}
+
+.right img {
+	height: 53px;
+	width: 52px;
+}
+
+h1 {
+	color: white;
+	margin: 10px;
+	text-align: center;
+}
+
+.pano-skyline {
+	width: 100%;
+}
+
+main {
+	max-width: 800px;
+	box-sizing: border-box;
+}
+
+h2 {
+	margin: 30px 0 10px 0;
+	color: rgb(14, 14, 119);
+	clear: both;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 2;
+	margin: 15px 0;
+}
+
+span {
+	background-color: #adff2f;
+}
+
+.left {
+	width: 250px;
+	height: 166px;
+	float: left;
+	padding-right: 1.5em;
+}
+
+figure.second > img {
+	width: 300px;
+	height: 200px;
+}
+
+footer p {
+	color: rgb(155, 133, 10);
+	text-align: right;
+}

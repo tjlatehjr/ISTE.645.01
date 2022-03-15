@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/19afef924e.js" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js" defer></script>
+</head>
+
+<body id="top">
+  <header id="navbar">
+    <div id="upper">
+      <ul>
+        <li class="activetab"><a href="index.html">Home</a></li>
+        <li><a href="influencers.html">Influncers</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="hamburger">
+      <div id="hamLinks">
+        <ul>
+          <li class="activetab"><a href="index.html">Home</a></li>
+          <li><a href="influencers.html">Influncers</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="goHam()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <div>
+    <div id="bannerimage">
+      <div id="bannertext">
+        <h1>Internet Influencers</h1>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="timeline">
+      <div class="container left">
+        <i class="icon fab fa-apple"></i>
+        <div class="date">1976</div>
+        <div class="content">
+          <h2>Apple Founded</h2>
+          <p>
+            Steve Jobs founds Apple Inc. alongside Steve Wozniak with a vision
+            to bring computers to the mass market through beautiful,
+            accessible design.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <i class="icon fas fa-desktop"></i>
+        <div class="date">1984</div>
+        <div class="content">
+          <h2>Macintosh Personal Computer</h2>
+          <p>
+            Apple released the first personal computer to include a mouse and
+            window based graphical user interface.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <i class="icon fas fa-network-wired"></i>
+        <div class="date">1989</div>
+        <div class="content">
+          <h2>The World Wide Web Is Invented</h2>
+          <p>
+            Tim Berners-Lee begins development on the World Wide Web. Within
+            10 months the first website, a download page for the WWW
+            prototype, is released.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <i class="icon fab fa-google"></i>
+        <div class="date">1998</div>
+        <div class="content">
+          <h2>Google Is Formed</h2>
+          <p>
+            The search engine giant was founded by Larry Page and Sergey Brin.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <i class="icon fas fa-search-dollar"></i>
+        <div class="date">2007</div>
+        <div class="content">
+          <h2>Google Aquires DoubleClick</h2>
+          <p>
+            Advertising service DoubleClick was purchased by Google for $3.1
+            billion. With the companies vast personal data utilization, the
+            internet data and advertising landscape would forever be changed.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <i class="icon fas fa-mobile-alt"></i>
+        <div class="date">2007</div>
+        <div class="content">
+          <h2>The First Generation iPhone Is Released</h2>
+          <p>
+            The iPhone hit the market and instantly changed the way we
+            interact with the web. With practical touch screens, mobile phones
+            soon became the primary environment for many’s web experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="bottombgimage">
+        <div id="bottombgtext">
+          <div>
+            <a href="influencers.html">Learn More About The Influncers</a>
+          </div>
+          <div>
+            <a href="quiz.html">Take The Quiz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; Copyrights 2021 | Group Six(6)</p>
+    <a href="#top" class="gotop fas fa-chevron-circle-up"></a>
+  </footer>
+
+  <script>
+    function goHam() {
+      var x = document.getElementById("hamLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/19afef924e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+
+<body id="top">
+    <header id="navbar">
+        <div id="upper">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="influencers.html">Influncers</a></li>
+                <li class="activetab"><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="hamburger">
+            <div id="hamLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="influencers.html">Influncers</a></li>
+                    <li class="activetab"><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="goHam()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h1>take a quiz on the influencers</h1>
+
+        <form id="quiz" name="quiz" action="#top">
+            <div id="score">
+                <p id="para"></p>
+                <div id="chart">
+                    <div id="right"></div>
+                    <div id="wrong"></div>
+                </div>
+                <label id="percent"></label>
+            </div>
+
+            <ol>
+                <li>
+                    <p>What organization was Tim Berners-Lee working at when he created the world wide web?</p>
+                    <input id="num1-opt1" name="num1" type="radio" value="a">
+                    <label for="num1-opt1">IBM</label>
+                    <br>
+                    <input id="num1-opt2" name="num1" type="radio" value="b">
+                    <label for="num1-opt2">CERN</label>
+                    <br>
+                    <input id="num1-opt3" name="num1" type="radio" value="c">
+                    <label for="num1-opt3">Apple</label>
+                </li>
+                <li>
+                    <p>How long did it take Tim Berners-Lee to develop the first prototype for the www?</p>
+                    <input id="num2-opt1" name="num2" type="radio" value="a">
+                    <label for="num2-opt1">10 years</label>
+                    <br>
+                    <input id="num2-opt2" name="num2" type="radio" value="b">
+                    <label for="num2-opt2">2 years</label>
+                    <br>
+                    <input id="num2-opt3" name="num2" type="radio" value="c">
+                    <label for="num2-opt3">10 months</label>
+                </li>
+                <li>
+                    <p>Tim Berners-Lee invented the internet.</p>
+                    <input id="num3-opt1" name="num3" type="radio" value="a">
+                    <label for="num3-opt1">True</label>
+                    <br>
+                    <input id="num3-opt2" name="num3" type="radio" value="b">
+                    <label for="num3-opt2">False</label>
+                </li>
+                <li>
+                    <p>Who was Steve Jobs’ founding partner at Apple?</p>
+                    <input id="num4-opt1" name="num4" type="radio" value="a">
+                    <label for="num4-opt1">Steve Wozniak</label>
+                    <br>
+                    <input id="num4-opt2" name="num4" type="radio" value="b">
+                    <label for="num4-opt2">Mies van der Rohe</label>
+                    <br>
+                    <input id="num4-opt3" name="num4" type="radio" value="c">
+                    <label for="num4-opt3">Tim Berners-Lee</label>
+                </li>
+                <li>
+                    <p>What was the basis of the design philosophy of Apple?</p>
+                    <input id="num5-opt1" name="num5" type="radio" value="a">
+                    <label for="num5-opt1">Less is more</label>
+                    <br>
+                    <input id="num5-opt2" name="num5" type="radio" value="b">
+                    <label for="num5-opt2">Less is a bore</label>
+                    <br>
+                    <input id="num5-opt3" name="num5" type="radio" value="c">
+                    <label for="num5-opt3">Form follows function</label>
+                </li>
+                <li>
+                    <p>What device popularized the mobile form factor?</p>
+                    <input id="num6-opt1" name="num6" type="radio" value="a">
+                    <label for="num6-opt1">Macintosh</label>
+                    <br>
+                    <input id="num6-opt2" name="num6" type="radio" value="b">
+                    <label for="num6-opt2">Motorola Razr</label>
+                    <br>
+                    <input id="num6-opt3" name="num6" type="radio" value="c">
+                    <label for="num6-opt3">iPhone</label>
+                </li>
+                <li>
+                    <p>What are the three unifying internet standards devised by Tim Berners-Lee?</p>
+                    <input id="num7-opt1" name="num7" type="radio" value="a">
+                    <label for="num7-opt1">HTML, CSS, JavaScript</label>
+                    <br>
+                    <input id="num7-opt2" name="num7" type="radio" value="b">
+                    <label for="num7-opt2">HTML, URL, HTTP</label>
+                    <br>
+                    <input id="num7-opt3" name="num7" type="radio" value="c">
+                    <label for="num7-opt3">Hardware, Software, Operating System</label>
+                </li>
+                <li>
+                    <p>What concept did Steve Jobs claim that Apple is in a unique position to take full responsibility
+                        for
+                        as a result of them controlling the construction of the entire widget?</p>
+                    <input id="num8-opt1" name="num8" type="radio" value="a">
+                    <label for="num8-opt1">Aesthetics</label>
+                    <br>
+                    <input id="num8-opt2" name="num8" type="radio" value="b">
+                    <label for="num8-opt2">Graphical interface</label>
+                    <br>
+                    <input id="num8-opt3" name="num8" type="radio" value="c">
+                    <label for="num8-opt3">User Experience</label>
+                </li>
+                <li>
+                    <p>What was the name of the first computer released by Apple?</p>
+                    <input id="num9-opt1" name="num9" type="radio" value="a">
+                    <label for="num9-opt1">Macintosh</label>
+                    <br>
+                    <input id="num9-opt2" name="num9" type="radio" value="b">
+                    <label for="num9-opt2">NeXT</label>
+                    <br>
+                    <input id="num9-opt3" name="num9" type="radio" value="c">
+                    <label for="num9-opt3">IBM 5150</label>
+                </li>
+                <li>
+                    <p>Tim Berners-Lee invented the hypertext concept.</p>
+                    <input id="num10-opt1" name="num10" type="radio" value="a">
+                    <label for="num10-opt1">True</label>
+                    <br>
+                    <input id="num10-opt2" name="num10" type="radio" value="b">
+                    <label for="num10-opt2">False</label>
+                </li>
+                <li>
+                    <p>Google’s domain “www.google.com” was registered on:</p>
+                    <input id="num11-opt1" name="num11" type="radio" value="a">
+                    <label for="num11-opt1">September 15, 1997</label>
+                    <br>
+                    <input id="num11-opt2" name="num11" type="radio" value="b">
+                    <label for="num11-opt2">August 21, 1973</label>
+                    <br>
+                    <input id="num11-opt3" name="num11" type="radio" value="c">
+                    <label for="num11-opt3">September 4, 1998</label>
+                    <br>
+                    <input id="num11-opt4" name="num11" type="radio" value="d">
+                    <label for="num11-opt4">October 25, 1979</label>
+                </li>
+                <li>
+                    <p>Google search engine was initially called BackRub:</p>
+                    <input id="num12-opt1" name="num12" type="radio" value="a">
+                    <label for="num12-opt1">True</label>
+                    <br>
+                    <input id="num12-opt2" name="num12" type="radio" value="b">
+                    <label for="num12-opt2">False</label>
+                </li>
+                <li>
+                    <p>The name of the page-ranking and site-scoring algorithm that Google was based on is referred to
+                        as:
+                    </p>
+                    <input id="num13-opt1" name="num13" type="radio" value="a">
+                    <label for="num13-opt1">BackRub</label>
+                    <br>
+                    <input id="num13-opt2" name="num13" type="radio" value="b">
+                    <label for="num13-opt2">RankDex</label>
+                    <br>
+                    <input id="num13-opt3" name="num13" type="radio" value="c">
+                    <label for="num13-opt3">PageRank</label>
+                    <br>
+                    <input id="num13-opt4" name="num13" type="radio" value="d">
+                    <label for="num13-opt4">None of the above</label>
+                </li>
+                <li>
+                    <p>Sergey and Larry Page met at:</p>
+                    <input id="num14-opt1" name="num14" type="radio" value="a">
+                    <label for="num14-opt1">A high school in Moscow</label>
+                    <br>
+                    <input id="num14-opt2" name="num14" type="radio" value="b">
+                    <label for="num14-opt2">A high school in New York</label>
+                    <br>
+                    <input id="num14-opt3" name="num14" type="radio" value="c">
+                    <label for="num14-opt3">University of Maryland</label>
+                    <br>
+                    <input id="num14-opt4" name="num14" type="radio" value="d">
+                    <label for="num14-opt4">Stanford University</label>
+                </li>
+                <li>
+                    <p>Sergey Brin parents were Micheal Brin and Sarah Brin</p>
+                    <input id="num15-opt1" name="num15" type="radio" value="a">
+                    <label for="num15-opt1">True</label>
+                    <br>
+                    <input id="num15-opt2" name="num15" type="radio" value="b">
+                    <label for="num15-opt2">False</label>
+                </li>
+                <li id="last">
+                    <p>Sergey Brin was born in:</p>
+                    <input id="num16-opt1" name="num16" type="radio" value="a">
+                    <label for="num16-opt1">New York, United States</label>
+                    <br>
+                    <input id="num16-opt2" name="num16" type="radio" value="b">
+                    <label for="num16-opt2">Maryland, United States</label>
+                    <br>
+                    <input id="num16-opt3" name="num16" type="radio" value="c">
+                    <label for="num16-opt3">Moscow, Russia</label>
+                    <br>
+                    <input id="num16-opt4" name="num16" type="radio" value="d">
+                    <label for="num16-opt4">None of the above</label>
+                </li>
+            </ol>
+
+            <div id="result">
+                <label></label><span></span>
+                <label></label><span></span>
+            </div>
+
+            <p>
+                <button type="reset" onclick="resetButton()">Clear</button>
+                <button onclick="quizResult()" type="submit">Submit</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyrights 2021 | Group Six(6)</p>
+        <a href="#top" class="gotop fas fa-chevron-circle-up"></a>
+    </footer>
+
+    <script>
+        function goHam() {
+            var x = document.getElementById("hamLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

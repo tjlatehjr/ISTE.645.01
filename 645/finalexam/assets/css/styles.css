@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #2e4351;
+  color: #2e4351;
+}
+
+.container {
+  max-width: 90rem;
+  background-color: #f1f2f0;
+  margin: 5rem auto;
+  padding: 2.5rem 3rem;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  align-items: flex-end;
+  grid-gap: 2.5rem;
+  margin: 0 0 2.5rem 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+#banner-area {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 5em;
+}
+
+#banner-area > img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 2.4rem;
+  max-width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+a {
+  display: block;
+  color: #f1f2f0;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.35em;
+}
+
+#button {
+  background-color: #cca152;
+  border: none;
+  align-self: center;
+}
+
+#usage {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+#usage > div {
+  max-width: 17rem;
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1.872rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+footer {
+  background-color: #b36f58;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  margin-bottom: 2.5em;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+ul {
+  padding: 0 2rem;
+}
+
+li {
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin: 1.5rem 0;
+}
+
+li:last-child {
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "logo"
+      "heading";
+    grid-gap: 1rem;
+    justify-items: center;
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .heading {
+    grid-area: heading;
+  }
+
+  .item1 {
+    grid-area: item1;
+  }
+
+  .item2 {
+    grid-area: item2;
+  }
+
+  .item3 {
+    grid-area: item3;
+  }
+
+  #usage {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3";
+    grid-gap: 3rem;
+    justify-items: center;
+  }
+}
